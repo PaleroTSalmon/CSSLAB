@@ -1,0 +1,174 @@
+
+/* GENERAL BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #18392b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #24553e;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+/* NAVIGATION HOVER */
+nav a:hover {
+    background-color: #3c7959;
+    border-radius: 5px;
+}
+
+/* MAIN CONTENT */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* SECTIONS */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* SECTION HEADINGS */
+section h2 {
+    color: #24553e;
+    border-bottom: 2px solid #24553e;
+    padding-bottom: 10px;
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    outline-color: #333;
+    outline: auto;
+}
+
+/* SKILLS */
+#skills ul {
+    line-height: 2;
+}
+
+/* PROJECT CARD CONTAINER */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* PROJECT CARDS */
+.card {
+    flex: 1;
+    border: 2px solid #24553e;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #f0f7f2;
+}
+
+/* PROJECT CARD HEADINGS */
+.card h3 {
+    color: #24553e;
+}
+
+/* CONTACT FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* SUBMIT BUTTON */
+button {
+    background-color: #24553e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #18392b;
+}
+
+/* FOOTER */
+footer {
+    background-color: #18392b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,16 @@
+/* BODY */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: darkblue;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 16px;
+}

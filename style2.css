@@ -1,0 +1,41 @@
+/* BODY */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #222222;
+}
+
+/* MAIN HEADING */
+h1 {
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    font-size: 22px;
+    color: darkgreen;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* UNORDERED LIST */
+ul {
+    line-height: 1.8;
+}
+
+/* HYPERLINK */
+a {
+    color: #145da0;
+    text-decoration: none;
+}
+
+/* HOVER EFFECT */
+a:hover {
+    text-decoration: underline;
+}
